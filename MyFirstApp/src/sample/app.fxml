@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.HomeController">
+    <children>
+        <AnchorPane layoutY="95.0" prefHeight="305.0" prefWidth="700.0" style="-fx-background-color: #FAFAFA;">
+            <children>
+                <Label layoutX="166.0" layoutY="46.0" text="Привет, Мир!">
+                    <font>
+                        <Font name="Comic Sans MS" size="57.0" />
+                    </font>
+                </Label>
+            <ImageView fx:id="imgButtonHome" fitHeight="92.0" fitWidth="120.0" layoutX="290.0" layoutY="162.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/home.jpg" />
+               </image>
+            </ImageView>
+            </children>
+        </AnchorPane>
+        <Label layoutX="239.0" layoutY="14.0" text="BadTwin" textFill="WHITE">
+            <font>
+                <Font name="Comic Sans MS" size="57.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
